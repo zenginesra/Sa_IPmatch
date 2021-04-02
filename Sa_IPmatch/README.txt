@@ -2,12 +2,14 @@ DESCRIPTION
 This folder contains MATLAB code files for simultaneous matching of near-fault records to 
 a target response spectrum and to a target Instantaneous Power (IP) spectrum, as described in the manuscript:  
 
+Esra Zengin, Norman Abrahamson
+<esrazengin@gmail.com>
 Zengin E., and Abrahamson, N.A. (2021) A Procedure for Matching the Near-Fault 
 Ground Motions based on Spectral Accelerations and Instantaneous Power, Earthquake Spectra, in press. 
 
 Main Steps:  
 
-1) Change Matlab’s current directory to the example folder of interest and make sure that 
+1) Change Matlabâ€™s current directory to the example folder of interest and make sure that 
 H1 and H2 components of the acceleration files and target response spectrum file are present 
 in the folder. Target IPs are computed in the program by the IP_GMM.m function, so the user does not 
 need to add the IP spectrum file. 
